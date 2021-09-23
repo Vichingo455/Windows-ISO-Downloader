@@ -1,5 +1,5 @@
 # Windows ISO Downloader
-Un utility per scaricare office (ITALIANO/ITALIAN)
+Un utility per scaricare le ISO di Windows (ITALIANO/ITALIAN)
 
 ## Interfaccia
 L'interfaccia è la seguente: dovete selezionare solo la versione di Windows e l'edizione (x86/x64)
