@@ -20,8 +20,10 @@ Per rendere vailda la firma:
 
 1. Esegui CertUtil.exe
 2. Seleziona Computer locale e premi avanti
-3. segui l'immagine: 
+3. Segui l'immagine: 
+
 ![image](https://user-images.githubusercontent.com/59311016/134405501-98c47393-e4c9-491d-9274-20795d47e0ef.png)
+
 4. Conferma l'importazione
 5. Chiudi il terminale Windows
 
