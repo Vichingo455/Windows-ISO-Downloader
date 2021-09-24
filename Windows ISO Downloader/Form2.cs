@@ -24,12 +24,12 @@ namespace Windows_ISO_Downloader
 
         private void button1_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate(string.Format("https://software-download.microsoft.com/db/Win10_21H1_Italian_x64.iso?t=72df96b8-b03f-4ccf-bd2a-6eb467d941b8&e=1632394920&h=4c81f479e001b2189d5962e4eeb5e679"));
+            webBrowser1.Navigate(string.Format("https://archive.org/download/cccoma-x-64-fre-it-it-dv-9/CCCOMA_X64FRE_IT-IT_DV9.iso"));
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            webBrowser1.Navigate(string.Format("https://software-download.microsoft.com/db/Win10_21H1_Italian_x32.iso?t=72df96b8-b03f-4ccf-bd2a-6eb467d941b8&e=1632394920&h=3996c93dd2cc1bb5716d998887aa8868"));
+            webBrowser1.Navigate(string.Format("https://archive.org/download/cccoma-x-64-fre-it-it-dv-9/CCCOMA_X86FRE_IT-IT_DV9.iso"));
         }
 
         private void label2_Click(object sender, EventArgs e)
