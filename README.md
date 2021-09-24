@@ -13,3 +13,14 @@ A questo punto dovrete solo fare click su Salva e selezionare la directory. Iniz
 ![image](https://user-images.githubusercontent.com/59311016/134359643-356b13a3-044e-4698-a2f2-cbc62fd89ebc.png)
 ![image](https://user-images.githubusercontent.com/59311016/134359826-c42548e5-a7a2-4085-8d0f-045f998f5fc0.png)
 ![image](https://user-images.githubusercontent.com/59311016/134359915-aaae249f-a094-4401-a1ad-14ac1ac2ecb1.png)
+
+# Firma digitale
+Per rendere vailda la firma
+
+Esegui CertUtil.exe
+Seleziona Computer locale e premi avanti
+segui l'immagine:
+![image](https://user-images.githubusercontent.com/59311016/134405501-98c47393-e4c9-491d-9274-20795d47e0ef.png)
+Conferma l'importazione
+Chiudi il terminale Windows
+
