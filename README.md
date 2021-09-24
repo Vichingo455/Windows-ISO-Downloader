@@ -15,12 +15,12 @@ A questo punto dovrete solo fare click su Salva e selezionare la directory. Iniz
 ![image](https://user-images.githubusercontent.com/59311016/134359915-aaae249f-a094-4401-a1ad-14ac1ac2ecb1.png)
 
 # Firma digitale
-Per rendere vailda la firma
+Per rendere vailda la firma:
 
-Esegui CertUtil.exe
-Seleziona Computer locale e premi avanti
-segui l'immagine:
+1. Esegui CertUtil.exe
+2. Seleziona Computer locale e premi avanti
+3. segui l'immagine: 
 ![image](https://user-images.githubusercontent.com/59311016/134405501-98c47393-e4c9-491d-9274-20795d47e0ef.png)
-Conferma l'importazione
-Chiudi il terminale Windows
+4. Conferma l'importazione
+5. Chiudi il terminale Windows
 
