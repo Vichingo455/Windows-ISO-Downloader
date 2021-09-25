@@ -27,3 +27,5 @@ Per rendere vailda la firma:
 4. Conferma l'importazione
 5. Chiudi il terminale Windows
 
+# Supporto
+Apri una domanda nella sezione issues o unisciti al [server Discord di supporto tecnico](https://discord.gg/mrsntYQCUm)
