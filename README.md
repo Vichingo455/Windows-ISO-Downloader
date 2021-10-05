@@ -4,7 +4,8 @@ Un utility per scaricare le ISO di Windows (ITALIANO/ITALIAN)
 ## Interfaccia
 L'interfaccia è la seguente: dovete selezionare solo la versione di Windows e l'edizione (x86/x64)
 
-![image](https://user-images.githubusercontent.com/59311016/134358976-41d629b7-ecf5-4fa4-994a-f457c26e2647.png)
+![image](https://user-images.githubusercontent.com/59311016/136027770-b854a00e-220d-473b-95a6-45717fd30e19.png)
+![image](https://user-images.githubusercontent.com/59311016/136027840-06469907-e666-4137-8d39-aee0daa22f19.png)
 ![image](https://user-images.githubusercontent.com/59311016/134359060-ba0c6402-a383-4cc1-b5a8-81f4b83d2129.png)
 ![image](https://user-images.githubusercontent.com/59311016/134359113-0435e436-8fbe-4271-8970-3dddb1fae662.png)
 ![image](https://user-images.githubusercontent.com/59311016/134359170-25edbb38-07d8-4c18-a2b2-28f2c41614db.png)
