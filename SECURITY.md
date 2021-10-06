@@ -6,7 +6,7 @@ Newer versions of Windows ISO Downloader will be supported with updates
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0   | :white_check_mark: |
-
-## Frequency of updates
-I will release a new version when Windows 11 get released
+| 1.1   | :white_check_mark: |
+| 1.0.2 | :white_check_mark: |
+| 1.0.1 | :x: |
+| 1.0 | :x: |
