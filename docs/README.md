@@ -5,8 +5,8 @@
 3. Can I modify the project? Yes, of course. Any helps with projects will be appreciated
 
 ## Index
-1) Downloading the project
-2) Installing the certificate
-3) Requirements
+1. [Downloading the project](https://vichingo455.github.io/Windows-ISO-Downloader/docs/#downloading-the-project)
+2. Installing the certificate
+3. Requirements
 
 ### Downloading the project
