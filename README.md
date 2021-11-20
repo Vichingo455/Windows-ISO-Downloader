@@ -29,4 +29,4 @@ Per rendere vailda la firma:
 5. Chiudi il terminale Windows
 
 # Supporto
-Apri una domanda nella sezione issues o unisciti al [server Discord di supporto tecnico](https://discord.gg/mrsntYQCUm)
+Apri una domanda nella sezione issues o unisciti al [server Discord di supporto tecnico](https://discord.gg/Fs72MghVG4)
