@@ -42,9 +42,9 @@ namespace Windows_ISO_Downloader
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(112, 274);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(846, 38);
+            this.label2.Size = new System.Drawing.Size(711, 38);
             this.label2.TabIndex = 9;
-            this.label2.Text = "Premere il tasto sotto per scaricare Windows 11 (Inglese)";
+            this.label2.Text = "Premere il tasto sotto per scaricare Windows 11";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label1
@@ -93,6 +93,7 @@ namespace Windows_ISO_Downloader
             this.Controls.Add(this.button1);
             this.Controls.Add(this.webBrowser1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
             this.Name = "Form3";
             this.Text = "Windows 11";
             this.ResumeLayout(false);

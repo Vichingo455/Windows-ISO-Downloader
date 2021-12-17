@@ -40,6 +40,10 @@ namespace Windows_ISO_Downloader
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.button5 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -116,7 +120,7 @@ namespace Windows_ISO_Downloader
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(317, 342);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(157, 32);
+            this.label2.Size = new System.Drawing.Size(156, 32);
             this.label2.TabIndex = 6;
             this.label2.Text = "Disponibile";
             // 
@@ -127,7 +131,7 @@ namespace Windows_ISO_Downloader
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(317, 449);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 32);
+            this.label3.Size = new System.Drawing.Size(156, 32);
             this.label3.TabIndex = 7;
             this.label3.Text = "Disponibile";
             // 
@@ -138,7 +142,7 @@ namespace Windows_ISO_Downloader
             this.label4.ForeColor = System.Drawing.Color.White;
             this.label4.Location = new System.Drawing.Point(317, 551);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(157, 32);
+            this.label4.Size = new System.Drawing.Size(156, 32);
             this.label4.TabIndex = 8;
             this.label4.Text = "Disponibile";
             // 
@@ -149,16 +153,65 @@ namespace Windows_ISO_Downloader
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(317, 666);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(157, 32);
+            this.label5.Size = new System.Drawing.Size(156, 32);
             this.label5.TabIndex = 9;
             this.label5.Text = "Disponibile";
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(590, 304);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(217, 104);
+            this.button5.TabIndex = 10;
+            this.button5.Text = "Windows Insider ISO";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(908, 342);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(156, 32);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "Disponibile";
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(590, 435);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(217, 56);
+            this.button6.TabIndex = 12;
+            this.button6.Text = "WinPE";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(908, 449);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(156, 32);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Disponibile";
+            // 
             // Form1
             // 
+            this.AcceptButton = this.button4;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
-            this.ClientSize = new System.Drawing.Size(1199, 738);
+            this.ClientSize = new System.Drawing.Size(1214, 751);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -170,6 +223,7 @@ namespace Windows_ISO_Downloader
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.SystemColors.Desktop;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -193,6 +247,10 @@ namespace Windows_ISO_Downloader
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label7;
     }
 }
 
