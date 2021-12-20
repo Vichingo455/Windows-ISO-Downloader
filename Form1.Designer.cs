@@ -44,6 +44,8 @@ namespace Windows_ISO_Downloader
             this.label6 = new System.Windows.Forms.Label();
             this.button6 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.button7 = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -201,6 +203,28 @@ namespace Windows_ISO_Downloader
             this.label7.TabIndex = 13;
             this.label7.Text = "Disponibile";
             // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(590, 537);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(217, 56);
+            this.button7.TabIndex = 14;
+            this.button7.Text = "Rufus";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(858, 550);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(257, 32);
+            this.label8.TabIndex = 15;
+            this.label8.Text = "Disponibile sempre";
+            // 
             // Form1
             // 
             this.AcceptButton = this.button4;
@@ -208,6 +232,8 @@ namespace Windows_ISO_Downloader
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Indigo;
             this.ClientSize = new System.Drawing.Size(1214, 751);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.button7);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button6);
             this.Controls.Add(this.label6);
@@ -228,6 +254,7 @@ namespace Windows_ISO_Downloader
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Windows ISO Downloader";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -251,6 +278,8 @@ namespace Windows_ISO_Downloader
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Label label8;
     }
 }
 

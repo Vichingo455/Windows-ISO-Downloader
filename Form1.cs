@@ -6,6 +6,9 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.IO;
+using System.Diagnostics;
+using System.Reflection;
 using System.Windows.Forms;
 
 namespace Windows_ISO_Downloader
@@ -16,6 +19,7 @@ namespace Windows_ISO_Downloader
         {
             InitializeComponent();
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -56,6 +60,13 @@ namespace Windows_ISO_Downloader
         {
             Form7 f7 = new Form7();
             f7.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            string exeDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+            Directory.SetCurrentDirectory(exeDir);
+            Process.Start("rufus.exe");
         }
     }
 }
