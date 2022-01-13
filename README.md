@@ -30,3 +30,6 @@ Per rendere vailda la firma:
 
 # Supporto
 Apri una domanda nella sezione issues o unisciti al [server Discord di supporto tecnico](https://discord.gg/Fs72MghVG4)
+
+# In programma
+- Aggiunta delle ISO di Windows Server
